@@ -1,0 +1,48 @@
+input {
+  width: 99%;
+  padding: 12px 20px;
+  margin: 8px 0 0 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0 10px 20px;
+}
+
+input:focus {
+  background: rgb(231, 231, 231);
+}
+
+textarea:focus {
+  background: rgb(231, 231, 231);
+}
+
+input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  color: rgb(255, 255, 255);
+  background: $dark-grey-color;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+input[type=submit]:hover {
+  background: rgb(61, 61, 61);
+}
+
+input[type=checkbox] {
+  border-radius: 10px;
+  cursor: pointer;
+  transform: scale(2);
+  accent-color: $pink-color;
+}
+
+::selection {
+  background: $pink-color;
+}
+
+::-moz-selection {
+  background: $pink-color;
+}

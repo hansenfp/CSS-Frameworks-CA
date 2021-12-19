@@ -1,0 +1,21 @@
+.card-title {
+  font-size: 12px;
+}
+
+.card-text {
+  color: black;
+  font-size: 12px;
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center !important;
+  width: 80%;
+  margin-bottom: 20px;
+  background: $pink-color !important;
+}
+
+.mb-3 {
+  display: flex;
+  align-items: center;
+}
